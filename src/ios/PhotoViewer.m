@@ -225,7 +225,7 @@
         [closeBtn setTitle:@"✕" forState:UIControlStateNormal];
         closeBtn.titleLabel.font = [UIFont systemFontOfSize: 32];
         [closeBtn setTitleColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.6] forState:UIControlStateNormal];
-        [closeBtn setFrame:CGRectMake(0, viewHeight - 50, viewWidth, 50)];
+        [closeBtn setFrame:CGRectMake(0,0,viewWidth, 50)];
         closeBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         closeBtn.contentEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
         [closeBtn setBackgroundColor:[UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.6]];
